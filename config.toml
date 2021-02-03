@@ -1,6 +1,6 @@
 # Main config file for icon theme.
 theme = "hugo-icon"
-baseURL = "https://www.example.com/"
+baseURL = "https://elegant-mcclintock-ad8452.netlify.app/"
 languageCode = "ja-jp"
 title = "My Awesome Title"
 
