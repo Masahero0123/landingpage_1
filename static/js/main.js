@@ -18,9 +18,9 @@
 
 	var fullHeight = function() {
 		if ( !isiPad() || !isiPhone() ) {
-			$('.js-fullheight-home').css('height', $(window).height() - $('.fh5co-main-nav').height());
+			$('.js-fullheight-homexxx').css('height', $(window).height() - $('.fh5co-main-nav').height());
 			$(window).resize(function(){
-				$('.js-fullheight-home').css('height', $(window).height()  - $('.fh5co-main-nav').height());
+				$('.js-fullheight-homexxx').css('height', $(window).height()  - $('.fh5co-main-nav').height());
 			})
 		}
 	};
