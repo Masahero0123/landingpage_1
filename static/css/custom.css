@@ -14,3 +14,5 @@
 @media (min-width: 992px){.fh5co-page .js-fullheight-home{height:40vw}} */
 /* トップの横幅 */
 /* @media (min-width: 1200px){.js-fullheight-home .container{width: 90%;} } */
+
+.fh5co-main-nav .fh5co-menu-1 a{padding:15px 0}

@@ -17,12 +17,12 @@ title = "My Awesome Title"
 
 # Navigation section
 [params.nav]
-  mission = "Our Mission"
-  services = "Services"
-  team = "The Team"
-  contact = "Get In Touch"
+  mission = "３つのポイント"
+  services = "機能紹介"
+  team = "クライアント事例"
+  contact = "お問い合わせ"
   # Include logo instead if HOME:
-  # logo = "path/to/logo"
+  logo = "images/logo_full_clean.png"
 
 # Mission section
 [params.mission]

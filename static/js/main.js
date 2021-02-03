@@ -81,12 +81,12 @@
 
 	var mainMenuSticky = function() {
 		
-		var sticky = $('.js-sticky');
+		// var sticky = $('.js-sticky');
 
-		sticky.css('height', sticky.height());
-		$(window).resize(function(){
-			sticky.css('height', sticky.height());
-		});
+		// sticky.css('height', sticky.height());
+		// $(window).resize(function(){
+		// 	sticky.css('height', sticky.height());
+		// });
 
 		var $section = $('.fh5co-main-nav');
 		
