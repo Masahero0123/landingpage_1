@@ -1,15 +1,16 @@
 #fh5co-home .fh5co-copy-inner h1 {font-weight:bold}
 #fh5co-home .fh5co-copy-inner {vertical-align:top ;padding-top: 20%;}
 
-/* トップの画像 */
-.img--mockup {position: absolute;top: 15vw;height: auto;}
+/* トップの画像 :::position: absolute;*/
+.img--mockup {top: 15vw;height: auto;padding-top: 10%}
 .img--mockup img{width:100%}
+@media (min-width: 992px){.img--mockup{padding-top: 40%;}}
 
 .js-fullheight-home .fh5co-copy{height: 40% !important;}
 .js-fullheight-home .js-fullheight-home .fh5co-copy-inner{height: 100% !important;}
 
 /* トップの高さ */
-.fh5co-page .js-fullheight-home{height: 90vh;}
-@media (min-width: 992px){.fh5co-page .js-fullheight-home{height:40vw}}
+/* .fh5co-page .js-fullheight-home{height: 90vh;}
+@media (min-width: 992px){.fh5co-page .js-fullheight-home{height:40vw}} */
 /* トップの横幅 */
-@media (min-width: 1200px){.js-fullheight-home .container{width: 90%;} }
+/* @media (min-width: 1200px){.js-fullheight-home .container{width: 90%;} } */
