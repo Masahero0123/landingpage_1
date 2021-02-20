@@ -1,5 +1,5 @@
 <form name="contact" method="POST" data-netlify="true">
-
+<!-- <form name="contact" action="/contact/contact_thanks" method="POST" data-netlify="true" netlify> -->
 	<div id="fh5co-contact" data-section="contact" method="POST" data-netlify="true">
 	<div class="container">
 		<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
@@ -8,7 +8,7 @@
 		<p>{{ .message | markdownify }}</p>
 		{{ end }}
 		</div>
-		<form name="contact-form" netlify-honeypot="_gotcha" action="/contact-thanks" netlify>
+		<!-- <form name="contact-form" netlify-honeypot="_gotcha" action="/contact-thanks" netlify> -->
 		<div class="row">
 		<div class="col-md-6">
 		<div class="form-group">
@@ -43,7 +43,7 @@
 		</div>
 		</div>
 
-		</form>
+		<!-- </form> -->
 	</div>
 	</div>
 </form>
