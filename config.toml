@@ -213,12 +213,12 @@ title = "My Awesome Title"
 [params.contact]
   enable = true
   title = "お問い合わせ"
-  message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  message = "以下のフォームにお問い合わせ内容をご記入ください。担当者よりご連絡させて頂きます。"
   name_placeholder = "お名前"
   email_placeholder = "メールアドレス"
   email_disclaimer = "We'll never share your email with anyone else."
   message_placeholder = "例：説明を聞いてみたい"
-  button_text = "Submit"
+  button_text = "送信"
 
 # Footer section
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
