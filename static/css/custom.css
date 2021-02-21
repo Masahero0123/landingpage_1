@@ -39,3 +39,13 @@
 /* @media screen and (max-width: 768px){ #fh5co-about .fh5co-2col-inner {padding:0}} */
 
 /* @media (min-width: 1200px){#fh5co-about {width: 1170px; margin: auto;}} */
+
+/* サンクスページ */
+.site-contact-thanks {padding: 10vw 38px;width: 50%;text-align: center;}
+@media (max-width: 991px){.site-contact-thanks {width: 100%;padding: 20vw 38px 10vw;text-align: center;}}
+.site-contact-wrapper {display: flex;align-items: center;flex-wrap: wrap;}
+.site-contact-description {padding: 70px 0 70px;}
+@media (max-width: 991px){.site-contact-description {width: 100%; padding: 30px 0px 70px 0px;text-align: center;}}
+.site-contact-bottom{margin-bottom: 150px;}
+.contact-wrapper{min-height: 100vh;position: relative;padding-bottom: 150px;box-sizing: border-box;}
+.contact-footer{width: 100%;position: absolute;}

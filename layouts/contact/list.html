@@ -1,0 +1,31 @@
+{{ define "main" }}
+  <body>
+    <!-- Loader -->
+    <contact-wrapper>
+      <div class="container">
+        <section class="site-about-header">
+          <div class="site-contact-wrapper">
+            <div class="site-contact-thanks">
+              <h1>Thank you</h1>
+            </div>
+            <div class="site-contact-description">
+                <p>お問い合わせを受け付けました。</p>
+                <p>ありがとうございます。</p>
+                <p>担当者よりご連絡致します。</p>
+            </div>
+          </div>
+        </section>
+        <div class="site-contact-bottom">
+          <div class="col-md-12 text-center">
+            <p><a href="{{ "." | absURL }}" class="btn btn-primary btn-outline fh5co-content-nav" data-nav-section="contact">戻る</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="contact-footer">
+        {{ if .Site.Params.footer.enable }}
+        {{ partial "footer.html" .}}
+        {{ end }}
+      </div>
+    </contact-wrapper>
+  </body>
+{{ end }}
