@@ -4,7 +4,7 @@
 /* トップの画像 :::position: absolute;*/
 .img--mockup {top: 15vw;height: auto;padding-top: 10%}
 .img--mockup img{width:100%}
-@media (min-width: 992px){.img--mockup{padding-top: 40%;}}
+@media (min-width: 992px){.img--mockup{padding-top: 20%;}}
 
 .js-fullheight-home .fh5co-copy{height: 40% !important;}
 .js-fullheight-home .js-fullheight-home .fh5co-copy-inner{height: 100% !important;}
@@ -15,7 +15,7 @@
 /* トップの横幅 */
 /* @media (min-width: 1200px){.js-fullheight-home .container{width: 90%;} } */
 
-.fh5co-main-nav .fh5co-menu-1 a{padding:15px 0}
+.fh5co-main-nav .fh5co-menu-1 a{padding:10px 0; align-items: center;    display: flex;}
 
 /* 3つのポイントの挙動 */
 .fh5co-tabs-container .fh5co-tabs li a {height: 50px; padding:10px 0;font-size: 16px}
@@ -49,3 +49,25 @@
 .site-contact-bottom{margin-bottom: 150px;}
 .contact-wrapper{min-height: 100vh;position: relative;padding-bottom: 150px;box-sizing: border-box;}
 .contact-footer{width: 100%;position: absolute;}
+
+.footer-text{text-align: center; margin: 0 auto;}
+
+/* TOP画像のフォント */
+#fh5co-home .fh5co-copy-inner h1 {font-size: 35px;}
+/* グローバルナビの背景色 */
+.fh5co-main-nav {background: black;}
+/* グローバルナビ */
+.fh5co-main-nav .fh5co-menu-1 {display: flex;}
+.fh5co-main-nav .fh5co-menu-1 a {font-size: 16px;}
+.fh5co-main-nav .fh5co-menu-1 .title-image {margin-right: auto}
+.fh5co-main-nav .fh5co-menu-1 a.active {color: white;}
+/* .fh5co-menu-1{float: right;} */
+/* .fh5co-main-nav .fh5co-menu-1 a {float: right;}
+.fh5co-main-nav .fh5co-menu-1 a.active {float:left} */
+/* 
+.index1{z-index: 1}
+.index2{z-index: 2}
+#fh5co-home .fh5co-copy-inner h2 {margin-right: -300px;} */
+
+/* 背景色 */
+#fh5co-about{background: #000000;}
